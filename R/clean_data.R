@@ -9,10 +9,8 @@
 #' @examples
 #' data("mat_data")
 #' clean_data(mat_data, matmor)
-
-library(dplyr)
-library(tidyr)
-
+#' library(dplyr)
+#' library(tidyr)
 clean_data <- function(data, value_name) {
   data %>%
     pivot_longer(
