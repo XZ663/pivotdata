@@ -1,0 +1,26 @@
+Package: pivotdata
+Type: Package
+Title: Convert Wide Format to Long Format
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Xinyi", "Zhao",
+      email = "xz@example.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: Provides functions to convert datasets from wide format to long format.
+    Includes support for renaming value columns dynamically and handling 
+    year columns from 2000 to 2019 for datasets such as mortality or other indicators.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 3.5)
+Imports:
+    tidyr,
+    dplyr
+RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
