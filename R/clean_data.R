@@ -5,11 +5,10 @@
 #' @param value_name A string specifying the name for the value column in the reshaped dataframe.
 #' @return A dataframe in long format with columns 'iso', 'year', and the specified value column.
 #' @author Xinyi Zhao
+#' @export
 #' @examples
 #' data("mat_data")
 #' clean_data(mat_data, matmor)
-#' @export
-
 
 library(dplyr)
 library(tidyr)
