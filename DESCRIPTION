@@ -24,3 +24,5 @@ RoxygenNote: 7.2.3
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+URL: https://github.com/XZ663/pivotdata
+BugReports: https://github.com/XZ663/pivotdata/issues
